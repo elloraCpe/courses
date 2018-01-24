@@ -1,0 +1,152 @@
+* {
+
+	box-sizing: border-box;
+
+}
+
+html {
+
+	font-size: 100%;
+
+}
+
+body {
+
+	margin: 0;
+	background: #c62641;
+
+}
+
+
+#wrapper {
+
+	
+	margin: 0;
+
+}
+
+#blog-main-content {
+
+	margin-top: 80px;
+	
+}
+
+.blog-post {
+
+	width: 70%;
+	background: white;
+	margin: 0 auto;
+	position: relative;
+	padding: 80px 110px;
+	font-family: Georgia, 'serif', 'sans-serif';
+
+}
+
+.post-date-time {
+
+	position: absolute;
+
+}
+
+.post-details {
+
+	margin-left: 155px;
+    padding: 0 50px;
+    position: relative;
+	
+}
+
+.post-details::before {
+
+    content: "";
+    height: 100%;
+    position: absolute;
+    width: 1px;
+    left: -38px;
+    top: 31px;
+    display: block;
+    background: rgba(68,68,68,0.1);
+
+}
+
+.post-details > p {
+
+	line-height: 1.5;
+	margin: 30px 0;
+	color: #504b4b;
+	
+}
+
+.post-day, .post-month, .post-year {
+
+	font-weight: bold;
+	font-family: Georgia, 'serif', 'sans-serif';
+
+}
+
+.post-day {
+
+	font-size: 4.25em;
+	display: block;
+	color: #c62641;
+	margin-bottom: 12px;
+}
+
+.post-day::after {
+
+	content: "";
+    position: absolute;
+    height: 11px;
+    width: 11px;
+    display: block;
+    border-radius: 50%;
+    left: 112px;
+    top: 40px;
+    z-index: 2;
+    background: #c62641;
+
+}
+
+.post-title {
+
+	margin-top: 0;
+	font-family: Arial, 'serif', 'sans-serif';
+
+}
+
+.post-author, .post-read, .post-comments {
+
+	font-size: 0.75em;
+	color: #a0a0a0;
+
+}
+
+.blog-button {
+
+	display: inline-block;
+	padding: 12px 22px;
+	font-size: 0.75em;
+	text-decoration: none;
+	color: white;
+	margin-right: 10px;
+	min-width: 160px;
+	text-align: center;
+	font-family: Arial, 'serif', 'sans-serif';
+
+}
+
+.blog-button.blog-button-read {
+
+	background: #c62641;
+
+}
+
+.blog-button.blog-button-comment {
+
+	border: 1px solid #c62641;
+	color: #c62641;
+
+}
+
+
+
