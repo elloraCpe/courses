@@ -1,0 +1,26 @@
+p {
+
+	line-height: 25px;
+
+}
+
+.super, .sub {
+
+	font-size: 12px;
+	color: red;
+	font-weight: bold;
+
+}
+
+.super {
+
+	vertical-align: super;
+
+}
+
+.sub {
+
+	vertical-align: sub;
+
+}
+

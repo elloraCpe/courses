@@ -1,0 +1,25 @@
+table {
+
+	border-collapse: collapse;
+
+}
+
+th, td {
+
+	border: 1px solid black;
+
+}
+
+tbody tr:nth-child(even) {
+
+	background: orange;
+
+}
+
+tfoot {
+
+	text-align: center;
+
+}
+
+
