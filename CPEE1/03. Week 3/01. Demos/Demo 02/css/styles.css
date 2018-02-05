@@ -1,0 +1,273 @@
+/* Author: Renato R. Maaliw III */
+
+*,*::after, *::before {
+
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+.clearfix::after {
+
+	content: "";
+	clear: both;
+	display: block;
+
+}
+
+body {
+
+	font-size:  100%;
+	font-family: 'Arial','sans-serif';
+	margin:  30px 0 80px 0;
+	line-height: 1.7;
+	background: #ededed;
+
+}
+
+.header {
+
+	background: #474747;
+	color: white;
+	height: 140px;
+	
+}
+
+.header-container,
+.content,
+.footer {
+
+	width: 1008px;
+	height:  100%;
+	margin: 0 auto;
+	
+}
+
+.header-container {
+
+	position: relative;
+
+}
+
+.header-info, .header-logo {
+
+	display: inline-block;
+
+}
+
+.header-info {
+
+	text-align: left;
+	width: 537px;
+	padding-top: 40px;
+	color: #c6c6c6;
+
+}
+
+.header-logo {
+
+	width: 452px;
+	background: #2f549b;
+	height: 160px;
+	position: absolute;
+	top: -10px;
+	right: 0;
+	padding: 27px 0 0 148px;
+	box-shadow: 0 3px 2px 0px #474747;
+
+}
+
+.header-logo img {
+
+	position: absolute;
+	top: 41px;
+	left: 52px;
+
+}
+
+.header-logo-info > h1,
+.header-logo-info > h3 {
+
+	display: inline-block;
+	padding-right: 25px;
+
+}
+
+.header-logo-info > h1 {
+
+	font-size: 65px;
+
+}
+
+.header-logo-info > h3 {
+
+	color: #c6c6c6;
+
+}
+
+/* .content */
+
+.content {
+
+	padding-top: 80px;
+
+}
+
+
+.content-panels > li {
+
+	list-style: none;
+	float:  left;
+	width: 237px;
+	text-align: center;
+	padding: 24px;
+	border:  1px solid #dfdfdf;
+	margin-right: 20px;
+	background: #fff;
+
+}
+
+.content-panels > li:hover {
+
+	color: white;
+	background: #2f549b;
+	transition: all .2s ease-out;
+
+}
+
+.content-panels > li:hover .content-panels-title,
+.content-panels > li:hover .content-panels-sub-title {
+
+	color: white;
+
+}
+
+.content-panels a:link,
+.content-panels a:visited {
+
+	color:  #c6c6c6;
+	font-size: 14px;
+
+}
+
+.content-panels > li:last-child {
+
+	margin-right: 0;
+
+}
+
+.content-panels-title,
+.content-panels-sub-title {
+
+	color: #2f549b;
+
+}
+
+.content-panels-sub-title,
+.content-panels-description {
+
+	font-size: 12px;
+	margin-bottom: 20px;
+
+}
+
+.content-panels-sub-title {
+	
+	display: block;
+	
+}
+
+
+/* footer */
+
+.footer {
+	
+	margin-top: 80px;
+	line-height: 1.25;
+	background: #c6c6c6;
+	border: 1px solid #bbb;
+
+}
+
+.footer h2 {
+
+	color: white;
+	background: #2f549b;
+	padding: 10px 16px;
+	width: 250px;
+	text-align: center;
+	margin: -28px auto 0 auto;
+	position: relative;
+
+}
+
+.footer h2::after,
+.footer h2::before {
+
+	content:  "";
+	position: absolute;
+	width: 0;
+	height: 0;
+
+}
+
+.footer h2::after {
+
+	border-top: 0px solid transparent;
+    border-bottom: 23px solid transparent;
+
+    border-right: 26px solid #204180;
+    bottom: 0px;
+    left: -26px;
+
+}
+
+.footer h2::before {
+
+	border-top: 0px solid transparent;
+    border-bottom: 23px solid transparent;
+
+    border-left: 26px solid #204180;
+    bottom: 0px;
+    right: -26px;
+
+}
+
+.footer-icons {
+
+	display: block;
+	padding: 24px 20px 24px 20px;
+
+}
+
+.footer-icons > li {
+
+	list-style: none;
+	float: left;
+	text-align: center;
+	padding: 24px 34px 24px 34px; 
+	width: 16.66%;
+
+}
+
+.footer-icons > li:hover {
+
+	background: #204180;
+
+}
+
+.footer-icons > li:hover span {
+
+	color: white;
+
+}
+
+.footer-icons-title {
+
+	display: block;
+	margin-top: 10px;
+	font-size: 11px;
+	color: #656565;
+
+}
