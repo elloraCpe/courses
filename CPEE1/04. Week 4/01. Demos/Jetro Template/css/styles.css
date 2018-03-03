@@ -1,0 +1,32 @@
+*, *::before, *::after {
+
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+.clearfix::after,
+.clearfix::before {
+
+	content: "";
+	display: block;
+	clear: both;
+
+}
+
+body {
+
+	/* font-size: 62.5%; */
+	font-size: 100%;
+	line-height: 1.5;
+	font-family: 'Arial','sans-serif','sans';
+	
+}
+
+#wrapper {
+
+	margin: 0 auto;
+
+}
+
