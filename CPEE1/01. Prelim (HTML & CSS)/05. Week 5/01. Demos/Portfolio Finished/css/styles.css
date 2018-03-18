@@ -1,0 +1,160 @@
+*, *::before, *::after {
+
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+.clearfix::after,
+.clearfix::before {
+
+	content: "";
+	display: block;
+	clear: both;
+
+}
+
+body {
+
+	/* font-size: 62.5%; */
+	font-size: 100%;
+	line-height: 1.5;
+	font-family: 'Helvetica Neue','Arial','sans-serif','sans';
+	background: #ededed;
+	
+}
+
+#wrapper {
+
+	margin: 0 auto;
+
+}
+
+/* Common */
+
+.header-nav,
+.slider {
+
+	width: 942px;
+
+}
+
+.header-wrapper {
+
+	height: 512px;
+	background: url("../img/bg-pattern.jpg");
+	color: white;
+
+}
+
+.header-nav {
+
+	width: 942px;
+	margin:  0 auto;
+	padding-top: 15px;	
+
+}
+
+.header-nav > img {
+
+	float: left;
+
+}
+
+.header-nav-list {
+
+	float: right;
+	margin-top: 10px;
+}
+
+.header-nav-list > li {
+
+	float: left;
+	list-style:  none;
+	margin-right:  22px;
+	padding-right:  10px;
+	font-size: 14px;
+
+}
+
+.header-nav-list > li:last-child {
+
+	margin-right: 0;
+	margin-top: 3px;
+	border-right:  0; 
+
+}
+
+.header-nav-list > li a:link, 
+.header-nav-list > li a:visited {
+
+	color: white;
+	text-decoration:  none;
+	display: block;
+	padding: 5px 10px;
+}
+
+.header-nav-list > li a:hover, 
+.header-nav-list > li a:active {
+
+	color: white;
+	background:  #2f2f2f;
+	border-radius: 5px;
+
+}
+
+.header-nav-list div {
+
+	position: relative;
+
+}
+
+.header-nav-list img {
+
+	position: absolute;
+	top: 5px;
+	left:  5px;
+
+}
+
+.header-nav-list input {
+
+	background: #2f2f2f;
+	border: 0;
+	padding: 5px 5px 5px 35px;
+	border-radius: 10px;
+	box-shadow: inset 2px 2px 1px 1px #252222;
+	color: white;
+	width: 150px;
+	height: 26px;
+}
+
+/* SLIDER */
+
+.slider {
+
+	margin: 50px auto;
+
+}
+
+.slider-info {
+
+	float: left;
+	width: 50%;
+
+}
+
+.slider-info p {
+
+	margin-top: 20px;
+
+}
+
+.slider-info a {
+
+	background: gray;
+	color: white;
+
+}
+

@@ -1,0 +1,28 @@
+/* PSEUDO ELEMENTS */
+
+p.first-p::first-line { /* ::first-line */;
+
+	color: red;
+
+}
+
+p.first-p::first-letter { /* ::first-letter */;
+
+	font-size: 45px;
+
+}
+
+p.second-p::before { /* :before */
+
+	content: "**BEFORE**";
+	text-decoration: underline;
+
+}
+
+p.second-p::after { /* :after */;
+
+	content: "**AFTER**";
+	text-decoration: underline;
+
+}
+

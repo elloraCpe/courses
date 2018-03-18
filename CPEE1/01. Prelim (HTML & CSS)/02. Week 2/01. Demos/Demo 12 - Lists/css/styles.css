@@ -1,0 +1,17 @@
+.main {
+
+	list-style: upper-roman;
+
+}
+
+.sub {
+
+	list-style: upper-alpha;
+
+}
+
+.sub-2 {
+
+	list-style: lower-roman;
+
+}

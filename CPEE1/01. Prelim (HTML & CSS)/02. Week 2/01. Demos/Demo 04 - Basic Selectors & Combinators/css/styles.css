@@ -1,0 +1,64 @@
+/* BASIC SELECTORS */
+
+* { /* Universal Selectors */
+
+	text-transform: capitalize;
+
+}
+
+h1 { /* Tag or Element Selector */
+
+	background: yellow;
+
+}
+
+
+.red { /* Class Selector */
+
+	color: red;
+
+}
+
+#group1 { /* ID Selector */
+
+	background: gray;
+
+}
+
+/* COMBINATORS */
+
+h1 + h2 { /* Adjacent Sibling Selector */
+
+	color: blue;
+
+}
+
+h1 ~ h4 { /* General Sibling Selector */
+
+	background: green;
+
+}
+
+[title=h4] { /* Attribute Selector */
+
+	text-align: right;
+
+}
+
+#group1 > h3 { /* Direct Child Selector */
+
+	background: aqua;
+
+}
+
+#group1 h5 { /* Descendant Selector (This is greedy) */
+
+	text-align: center;
+
+}
+
+#subgroup1, #subgroup2 { /* Grouping Selector */
+
+	background: red;
+
+}
